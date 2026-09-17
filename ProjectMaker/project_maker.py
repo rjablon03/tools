@@ -4,11 +4,7 @@ import os
 class ProjectMaker:
 
     def __init__(self):
-        self.base_path = (
-            r"C:\Users\ryan.m.jablonski"
-            r"\OneDrive - Koops, Inc"
-            r"\Desktop\Projects"
-        )
+        self.base_path = ("")
 
     def create_project(self, client_name, project_name):
         path = os.path.join(
